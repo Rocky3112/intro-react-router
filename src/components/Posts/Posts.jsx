@@ -4,7 +4,7 @@ import Post from '../Post/Post';
 
 const Posts = () => {
     const posts = useLoaderData();
-    console.log(posts);
+    // console.log(posts);
     return (
         <div>
             <h1>all post is here{posts.length}</h1>
